@@ -22,6 +22,7 @@ public class ChairState : MonoBehaviour
     /// <summary>
     /// Function to check collision with NPC or player, and change occupied flag and sprite color based on layer of colliding object
     /// </summary>
+    /// <param name="collision">The collider that the chair is colliding with</param>
     private void OnTriggerEnter2D(Collider2D collision)
     { 
         if (!isOccupied)
