@@ -11,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - NPC
+  - Chair
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Environment2
+    uniqueID: 421797161
+    locked: 0
+  - name: Environment1
+    uniqueID: 1297217961
+    locked: 0
+  - name: NPC
+    uniqueID: 3962822151
+    locked: 0
+  - name: Player
+    uniqueID: 2070114939
     locked: 0
