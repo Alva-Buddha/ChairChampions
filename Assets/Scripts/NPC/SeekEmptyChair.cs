@@ -6,13 +6,11 @@ public class SeekEmptyChair : MonoBehaviour
 {
     [Header("Movement Variables")]
     [Tooltip("The speed at which the NPC will move.")]
-    public float moveSpeed = 10.0f;
+    public float moveSpeed = 5.0f;
     [Tooltip("The speed at which the NPC rotates")]
     public float rotationSpeed = 60f;
-
     [Tooltip("The distance at which the NPC will stop moving towards the chair")]
     public float stoppingDistance = 0.1f;
-
     [Tooltip("Boolean to check if the NPC has reached the chair")]
     public bool reachedChair = false;
 
